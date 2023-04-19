@@ -1,0 +1,17 @@
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\bin\Debug\net6.0\RabbitMQConfigurations.BLL.deps.json
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\bin\Debug\net6.0\RabbitMQConfigurations.BLL.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\bin\Debug\net6.0\RabbitMQConfigurations.BLL.pdb
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\bin\Debug\net6.0\RabbitMQConfigurations.Entities.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\bin\Debug\net6.0\RabbitMQConfigurations.Entities.pdb
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\RabbitMQConfigurations.BLL.csproj.AssemblyReference.cache
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\RabbitMQConfigurations.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\RabbitMQConfigurations.BLL.AssemblyInfoInputs.cache
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\RabbitMQConfigurations.BLL.AssemblyInfo.cs
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\RabbitMQConfigurations.BLL.csproj.CoreCompileInputs.cache
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\RabbitMQConfigurations.BLL.csproj.CopyComplete
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\RabbitMQConfigurations.BLL.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\refint\RabbitMQConfigurations.BLL.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\RabbitMQConfigurations.BLL.pdb
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\obj\Debug\net6.0\ref\RabbitMQConfigurations.BLL.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\bin\Debug\net6.0\RabbitMQConfigurations.Infrastructure.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.BLL\bin\Debug\net6.0\RabbitMQConfigurations.Infrastructure.pdb

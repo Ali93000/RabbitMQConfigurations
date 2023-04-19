@@ -1,0 +1,12 @@
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\bin\Debug\net6.0\RabbitMQConfigurations.Entities.deps.json
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\bin\Debug\net6.0\RabbitMQConfigurations.Entities.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\bin\Debug\net6.0\RabbitMQConfigurations.Entities.pdb
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\RabbitMQConfigurations.Entities.csproj.AssemblyReference.cache
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\RabbitMQConfigurations.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\RabbitMQConfigurations.Entities.AssemblyInfoInputs.cache
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\RabbitMQConfigurations.Entities.AssemblyInfo.cs
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\RabbitMQConfigurations.Entities.csproj.CoreCompileInputs.cache
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\RabbitMQConfigurations.Entities.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\refint\RabbitMQConfigurations.Entities.dll
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\RabbitMQConfigurations.Entities.pdb
+E:\Git Repo\RabbitMQConfigurations\RabbitMQConfigurations\RabbitMQConfigurations.Entities\obj\Debug\net6.0\ref\RabbitMQConfigurations.Entities.dll
