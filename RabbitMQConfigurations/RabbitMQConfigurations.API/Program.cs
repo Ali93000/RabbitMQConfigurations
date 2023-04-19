@@ -13,6 +13,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAppSettingsConfigurations(builder.Configuration);
 // Add Infrastructure Configurations
 builder.Services.AddInfrastructureConfigurations();
+// Add BLL Services
+builder.Services.AddServicesConfigurations();
 // Add Mediator
 builder.Services.AddMediatorConfigurations();
 

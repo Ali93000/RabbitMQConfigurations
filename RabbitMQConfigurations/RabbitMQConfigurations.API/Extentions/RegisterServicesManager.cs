@@ -1,5 +1,7 @@
 ﻿using RabbitMQConfigurations.BLL;
+using RabbitMQConfigurations.BLL.SharedServices;
 using RabbitMQConfigurations.Entities.AppSettingsConfigurations.Interfaces;
+using RabbitMQConfigurations.Entities.Interfaces.SharedServices;
 using RabbitMQConfigurations.Infrastructure.Implementations;
 using RabbitMQConfigurations.Infrastructure.Interfaces;
 using System.Reflection;
@@ -20,6 +22,13 @@ namespace RabbitMQConfigurations.API.Extentions
             services.AddScoped<IRabbitMQConnectionManager, RabbitMQConnectionManager>();
             services.AddScoped<IRabbitMQProducer, RabbitMQProducer>();
             services.AddScoped<IQueueSettingsHelper, QueueSettingsHelper>();
+        }
+
+
+        public static void AddServicesConfigurations(this IServiceCollection services)
+        {
+            services.AddScoped<IDatetimeHelper, DatetimeHelper>();
+            
         }
 
         public static void AddMediatorConfigurations(this IServiceCollection services)

@@ -12,8 +12,9 @@ namespace RabbitMQConfigurations.Entities.GenericModels
         {
             ResponseMessages = new List<string>();
         }
-        public bool IsSuccessfully { get; set; }
-        public int ResponseCode { get; set; }
+        public bool IsSuccessfully { get; set; } = true;
+
+        public int ResponseCode { get; set; } = 200;
         public List<string> ResponseMessages { get; set; }
     }
 }

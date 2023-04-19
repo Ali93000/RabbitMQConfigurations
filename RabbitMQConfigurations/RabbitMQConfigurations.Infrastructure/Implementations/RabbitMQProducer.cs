@@ -1,6 +1,7 @@
 ﻿using RabbitMQ.Client;
 using RabbitMQConfigurations.Entities;
 using RabbitMQConfigurations.Entities.Enums;
+using RabbitMQConfigurations.Entities.Interfaces.SharedServices;
 using RabbitMQConfigurations.Entities.RabbitMQModels;
 using RabbitMQConfigurations.Infrastructure.Interfaces;
 using System;
@@ -15,11 +16,14 @@ namespace RabbitMQConfigurations.Infrastructure.Implementations
     {
         private readonly IRabbitMQConnectionManager _rabbitMQConnection;
         private readonly IQueueSettingsHelper _queueSettingsHelper;
+        private readonly IDatetimeHelper _datetimeHelper;
         public RabbitMQProducer(IRabbitMQConnectionManager rabbitMQConnection,
-            IQueueSettingsHelper queueSettingsHelper)
+            IQueueSettingsHelper queueSettingsHelper,
+            IDatetimeHelper datetimeHelper)
         {
             _rabbitMQConnection = rabbitMQConnection;
             _queueSettingsHelper = queueSettingsHelper;
+            _datetimeHelper = datetimeHelper;
         }
 
         public PublishMessageResponse PublishMessage<T>(int queueId, T message)
@@ -71,7 +75,8 @@ namespace RabbitMQConfigurations.Infrastructure.Implementations
             // Add Custom Headers to message
             var headers = new Dictionary<string, object>();
             headers.Add("x-systemCode", 5000);
-            headers.Add("x-createdAt", DateTime.Now);
+            
+            headers.Add("x-createdAt", _datetimeHelper.GetDatetimeNowAsTimestamp());
             properties.Headers = headers;
 
             // prepare message to publish,

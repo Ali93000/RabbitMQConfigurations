@@ -4,3 +4,15 @@
 
 /RabbitMQConfigurations/.vs/RabbitMQConfigurations/FileContentIndex
 /.vs
+/.vs
+/RabbitMQConfigurations/.vs
+/RabbitMQConfigurations/RabbitMQConfigurations.API/obj
+/RabbitMQConfigurations/RabbitMQConfigurations.API/bin
+/RabbitMQConfigurations/RabbitMQConfigurations.BLL/obj
+/RabbitMQConfigurations/RabbitMQConfigurations.BLL/bin
+/RabbitMQConfigurations/RabbitMQConfigurations.Domain/obj
+/RabbitMQConfigurations/RabbitMQConfigurations.Domain/bin
+/RabbitMQConfigurations/RabbitMQConfigurations.Entities/bin
+/RabbitMQConfigurations/RabbitMQConfigurations.Entities/obj
+/RabbitMQConfigurations/RabbitMQConfigurations.Infrastructure/bin
+/RabbitMQConfigurations/RabbitMQConfigurations.Infrastructure/obj

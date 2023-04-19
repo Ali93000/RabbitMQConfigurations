@@ -68,7 +68,7 @@ namespace RabbitMQConfigurations.Infrastructure.Implementations
             get
             {
                 if (!IsChannelConnected)
-                    _channel = _connection.CreateModel();
+                    _channel = GetConnection().CreateModel();
                 return _channel;
             }
         }
@@ -109,7 +109,7 @@ namespace RabbitMQConfigurations.Infrastructure.Implementations
         // pooling methods manage channel in publisher   
         public IModel Create()
         {
-            return _connection.CreateModel();
+            return GetConnection().CreateModel();
         }
 
         public bool Return(IModel obj)
