@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RabbitMQConfigurations.Entities.ApiModels.RabbitMQModels.Response
 {
-    public class PulishStringMessageResponse : GenericResponse
+    public class PublishStringMessageResponse : GenericResponse
     {
         public string RequestReference { get; set; }
     }

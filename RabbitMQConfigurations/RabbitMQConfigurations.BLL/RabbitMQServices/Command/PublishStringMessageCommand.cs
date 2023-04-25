@@ -10,5 +10,5 @@ using System.Threading.Tasks;
 
 namespace RabbitMQConfigurations.BLL.RabbitMQServices.Command
 {
-    public record PublishStringMessageCommand(Publish_StringMessageRequest publishMessage_Request) : IRequest<PulishStringMessageResponse>;
+    public record PublishStringMessageCommand(Publish_StringMessageRequest publishMessage_Request) : IRequest<PublishStringMessageResponse>;
 }

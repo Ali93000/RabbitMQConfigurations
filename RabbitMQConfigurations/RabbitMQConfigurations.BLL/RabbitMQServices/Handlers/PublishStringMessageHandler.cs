@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace RabbitMQConfigurations.BLL.RabbitMQServices.Handlers
 {
-    public class PublishStringMessageHandler : IRequestHandler<PublishStringMessageCommand, PulishStringMessageResponse>
+    public class PublishStringMessageHandler : IRequestHandler<PublishStringMessageCommand, PublishStringMessageResponse>
     {
         private readonly IRabbitMQProducer _rabbitMQProducer;
 
@@ -20,10 +20,10 @@ namespace RabbitMQConfigurations.BLL.RabbitMQServices.Handlers
             _rabbitMQProducer = rabbitMQProducer;
         }
 
-        public Task<PulishStringMessageResponse> Handle(PublishStringMessageCommand request, CancellationToken cancellationToken)
+        public Task<PublishStringMessageResponse> Handle(PublishStringMessageCommand request, CancellationToken cancellationToken)
         {
             var push = _rabbitMQProducer.PublishMessage((int)QueueTypeEnum.StringQueue, request.publishMessage_Request.Message);
-            var result = new PulishStringMessageResponse()
+            var result = new PublishStringMessageResponse()
             {
                 RequestReference = push.RequestReferance,
                 IsSuccessfully = push.IsSuccessfully,

@@ -17,13 +17,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="7.0.5" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RabbitMQConfigurations.Domain\RabbitMQConfigurations.Domain.csproj" />
     <ProjectReference Include="..\RabbitMQConfigurations.Entities\RabbitMQConfigurations.Entities.csproj" />
   </ItemGroup>
 

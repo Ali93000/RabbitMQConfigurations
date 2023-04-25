@@ -1,5 +1,7 @@
-﻿using RabbitMQConfigurations.BLL;
+﻿using Microsoft.EntityFrameworkCore;
+using RabbitMQConfigurations.BLL;
 using RabbitMQConfigurations.BLL.SharedServices;
+using RabbitMQConfigurations.Domain.Domain;
 using RabbitMQConfigurations.Entities.AppSettingsConfigurations.Interfaces;
 using RabbitMQConfigurations.Entities.Interfaces.SharedServices;
 using RabbitMQConfigurations.Infrastructure.Implementations;
@@ -10,6 +12,17 @@ namespace RabbitMQConfigurations.API.Extentions
 {
     public static class RegisterServicesManager
     {
+
+        public static void AddDBContextConfigurations(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddDbContext<RabbitMQDBContext>(options =>
+            {
+                options.UseSqlServer(configuration.GetConnectionString("RabbitMQConntection"));
+            });
+            services.AddScoped < RabbitMQDBContext>();
+        }
+
+
         public static void AddAppSettingsConfigurations(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddSingleton<IRabbitMQConfigurations>(configuration.GetSection("RabbitMQConfigurations").Get<Entities.AppSettingsConfigurations.Implementations.RabbitMQConfigurations>());
@@ -22,6 +35,7 @@ namespace RabbitMQConfigurations.API.Extentions
             services.AddScoped<IRabbitMQConnectionManager, RabbitMQConnectionManager>();
             services.AddScoped<IRabbitMQProducer, RabbitMQProducer>();
             services.AddScoped<IQueueSettingsHelper, QueueSettingsHelper>();
+            services.AddScoped<IRabbitMQConsumer, RabbitMQConsumer>();
         }
 
 

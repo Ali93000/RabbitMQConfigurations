@@ -24,5 +24,14 @@ namespace RabbitMQConfigurations.API.Controllers
                 return BadRequest(result);
             return Ok(result);  
         }
+        
+        [HttpPost("sms-message")]
+        public async Task<IActionResult> PublishSMSMessage(Publish_SMSMessageRequest request)
+        {
+            var result =  await _mediator.Send(new PublishSMSMessageCommand(request));
+            if (!result.IsSuccessfully)
+                return BadRequest(result);
+            return Ok(result);  
+        }
     }
 }

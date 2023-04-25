@@ -15,6 +15,8 @@ builder.Services.AddAppSettingsConfigurations(builder.Configuration);
 builder.Services.AddInfrastructureConfigurations();
 // Add BLL Services
 builder.Services.AddServicesConfigurations();
+// Add DB Context
+builder.Services.AddDBContextConfigurations(builder.Configuration);
 // Add Mediator
 builder.Services.AddMediatorConfigurations();
 
